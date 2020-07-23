@@ -3,5 +3,10 @@
   "//workspaces": "explicitly list packages till https://github.com/dependabot/dependabot-core/issues/1777 is cleared",
   "workspaces": [
     "pk-tsc"
-  ]
+  ],
+  "scripts": {
+    "ls-all": "git ls-tree --name-only -r HEAD",
+    "prettier": "yarn ls-all | awk '{if(NR>2)print}' | xargs prettier --config .prettierrc --write",
+    "lint": "yarn ls-all | awk '{if(NR>2)print}' | xargs eslint --quiet"
+  }
 }
