@@ -10,6 +10,7 @@ First package, with the following:
 - jest
 - chai
 - prettier
+- tslint
 
 ## Setup
 
@@ -20,7 +21,6 @@ First package, with the following:
 
 - pre-commit hooks
 - circleCI or travis integration
-- scripts for lint, prettier
 - graphql
 - spellcheck
 - publish package with: https://github.com/davidchambers/xyz

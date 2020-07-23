@@ -1,4 +1,6 @@
 yarn.lock
 .eslintignore
+.prettierignore
 .gitignore
 LICENSE
+.github/dependabot.yml

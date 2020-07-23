@@ -7,6 +7,7 @@
   "scripts": {
     "ls-all": "git ls-tree --name-only -r HEAD",
     "prettier": "yarn ls-all | awk '{if(NR>2)print}' | xargs prettier --config .prettierrc --write",
+    "prettier:check": "yarn ls-all | awk '{if(NR>2)print}' | xargs prettier --config .prettierrc --check",
     "lint": "yarn ls-all | awk '{if(NR>2)print}' | xargs eslint --quiet"
   }
 }
