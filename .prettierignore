@@ -4,3 +4,4 @@ yarn.lock
 .gitignore
 LICENSE
 .github/dependabot.yml
+.github/workflows/node.js.yml

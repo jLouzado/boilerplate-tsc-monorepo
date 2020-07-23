@@ -4,7 +4,7 @@ module.exports = {
     node: true
   },
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'jest', 'jsdoc'],
+  plugins: ['@typescript-eslint', 'jest', 'jsdoc', 'markdown'],
   extends: [
     'eslint:recommended',
     'plugin:eslint-comments/recommended',
@@ -14,6 +14,13 @@ module.exports = {
     'plugin:jest/style',
     'plugin:import/errors',
     'plugin:import/warnings'
+  ],
+  overrides: [
+    {
+      // 2. Enable the Markdown processor for all .md files.
+      files: ['**/*.md'],
+      processor: 'markdown/markdown'
+    }
   ],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',

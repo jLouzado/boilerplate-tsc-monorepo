@@ -11,6 +11,8 @@ First package, with the following:
 - chai
 - prettier
 - tslint
+- spellcheck
+- ci via Github Actions
 
 ## Setup
 
@@ -20,10 +22,8 @@ First package, with the following:
 ## Automation Wishlist
 
 - pre-commit hooks
-- circleCI or travis integration
 - graphql
 - spellcheck
-- publish package with: https://github.com/davidchambers/xyz
-- assert aspects of architecture with: https://www.npmjs.com/package/dependency-cruiser
-- remove the `quiet` of eslint once I figure out how to only give files not in eslintignore
-  - ref: https://stackoverflow.com/a/59549917/3121906
+- publish package with [xyz](https://github.com/davidchambers/xyz)
+- assert aspects of architecture with: [dependency-cruiser](https://www.npmjs.com/package/dependency-cruiser)
+- remove the `quiet` of eslint once I figure out how to filter out files in eslintignore so it [doesn't cry](https://stackoverflow.com/a/59549917/3121906)
