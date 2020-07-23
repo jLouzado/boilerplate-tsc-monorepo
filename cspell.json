@@ -3,11 +3,12 @@
   "version": "0.1",
   // language - current active spelling language
   "language": "en",
-  // words - list of words to be always considered correc
+  // words - list of words to be always considered correct
   "words": [
     "eslintignore",
     "markdownlint",
     "mdlint",
+    "prettierrc",
     "prettierignore",
     "repo",
     "repos"
