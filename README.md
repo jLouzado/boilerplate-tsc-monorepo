@@ -16,7 +16,7 @@ First package, with the following:
 - Just make a new repo with this as a template
 - rename the packages, (and the name in package.json) and you're good to go
 
-# Automation Wishlist
+## Automation Wishlist
 
 - pre-commit hooks
 - circleCI or travis integration
