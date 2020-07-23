@@ -11,6 +11,8 @@ First package, with the following:
 - chai
 - prettier
 - tslint
+- spellcheck
+- ci via Github Actions
 
 ## Setup
 
@@ -20,7 +22,6 @@ First package, with the following:
 ## Automation Wishlist
 
 - pre-commit hooks
-- circleCI or travis integration
 - graphql
 - spellcheck
 - publish package with [xyz](https://github.com/davidchambers/xyz)
