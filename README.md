@@ -1,17 +1,32 @@
 # Typescript-Monorepo Boilerplate
 
-Template for typescript mono-repos
+Template for typescript-based mono-repos
 
-## Available
+## Monorepo
 
-First package, with the following:
+- Monorepos powered by [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
 
-- typescript
+```
+$ yarn
+$ yarn test
+```
+
+The first package package is setup with the following:
+
+## Testing
+
 - jest
 - chai
+
+## Linting
+
 - prettier
 - tslint
+  - I like the options quite strict but please customize to your comfort
 - spellcheck
+
+## CI
+
 - ci via Github Actions
 
 ## Setup
@@ -23,7 +38,6 @@ First package, with the following:
 
 - pre-commit hooks
 - graphql
-- spellcheck
 - publish package with [xyz](https://github.com/davidchambers/xyz)
 - assert aspects of architecture with: [dependency-cruiser](https://www.npmjs.com/package/dependency-cruiser)
 - remove the `quiet` of eslint once I figure out how to filter out files in eslintignore so it [doesn't cry](https://stackoverflow.com/a/59549917/3121906)
