@@ -34,9 +34,11 @@ The first package package is setup with the following:
 - Just make a new repo with this as a template
 - rename the packages, (and the name in package.json) and you're good to go
 
-## Automation Wishlist
+## Wishlist
 
 - pre-commit hooks
+- react-package
+  - run tests and checks from root
 - graphql
 - publish package with [xyz](https://github.com/davidchambers/xyz)
 - assert aspects of architecture with: [dependency-cruiser](https://www.npmjs.com/package/dependency-cruiser)
