@@ -11,7 +11,8 @@
     "prettierrc",
     "prettierignore",
     "repo",
-    "repos"
+    "repos",
+    "kalpataru"
   ],
   "dictionaries": ["node", "typescript"],
   "ignorePaths": [
